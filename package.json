@@ -1,0 +1,23 @@
+{
+  "name": "online-min",
+  "version": "1.0.0",
+  "description": "Calculate minimum online (piece-by-piece)",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onlinestats/online-min.git"
+  },
+  "author": "Anton Zemlyansky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onlinestats/online-min/issues"
+  },
+  "homepage": "https://github.com/onlinestats/online-min#readme",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.9.0"
+  }
+}
