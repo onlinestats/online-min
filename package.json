@@ -1,6 +1,6 @@
 {
   "name": "online-min",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Calculate minimum online (piece-by-piece)",
   "main": "index.js",
   "scripts": {

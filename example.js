@@ -1,10 +1,4 @@
-# online-min
-Find mimimum processing values one by one (online algorithm)
-
-## Usage
-
-```javascript
-const Min = require('online-min')
+const Min = require('.')
 
 // Direct call
 const min1 = Min()
@@ -20,5 +14,4 @@ console.log(min2.value) // -> 1
 min2([6, 7, 8])
 // Keep in mind - we already declared min2, so we just update it
 // Minimum is still 1
-console.log(min2.value) // -> 1! 
-```
+console.log(min2.value) // -> 1!
